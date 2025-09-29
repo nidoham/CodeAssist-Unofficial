@@ -68,7 +68,7 @@ Assume that you have already setup git credentials if not read above sections.
 	
 	-  To confirm & to celebrate, open the file explorer from left side, inside code assist. refresh the files and you will see `.git` folder under your project directory. This will make your project a git repository. and git setup is complete from here. 
 
-> [! WARNING]
+> [!WARNING]
 > Now we only need to take care of github which is kind of hard.. Stay little bit more focus from now, Read the step and follow only if you understand. I recommend reading all the steps first then coming back and read and follow each step again.
 
 6. We are done with code assist pro, Go to browser (preferably chrome). open [github.com](https://github.com/new) and create a repository.
@@ -124,5 +124,45 @@ Assume that you have already setup git credentials if not read above sections.
 
 29. After confirming its you the one. github will accept your key..  and it will be reflected by you see the newly added key in ssh key section. https://github.com/settings/keys
 
-30. and yup that set, you are done with setup your project for git+github... in 30 steps. 🎉🎉🎉
+30. And yup!! that set, you are done with setup your project for git+github... in 30 steps. 🎉🎉🎉
+
+### Uploading your project to github.
+
+Assume that, you already setup your project for git & github.
+
+1. Open your dersired project in code assist pro.
+
+2. From git, select status option.
+
+3. You will see a message untracked files and then there will be a list of files. This means you have changes.
+
+4. From git, select add all to staged. You see a message that all changes staged
+
+5. Then again from git, select commit.
+
+6. Enter a message (preferably `Initial Commit`) and then commit.
+
+7. Then from git, select push.
+
+8. Then from git, select pull. (optional but recommend).
+
+9. You have successfully uploaded your code. see on your github repository..
+
+10. Now you can freely do things, in your code assist pro and make new bugs (morely like accidently) but this will not affect backup. and once you again make enough bug (aka codes changes), take a rebackup 😂.
+
+### Reuploading / Updating Project.
+
+1. Firstly, ensure that you have no bug in your project. (optional but, recommend because github should be treat as backup and you ideally don't need bugs in back up or do you?).
+
+2. Now from git, select pull. (not required, but recommend as you in code assist pro that abstract git. So, it always good to pull before commit in code assist unless you have terminal/termux near by)
+
+3. Now, from git, select status option.
+
+4. You will see a message untracked files and then there will be a list of files. This means you have changes.
+
+5. If you see some like no changes or working tree clean. then you didn;t produce enough bugs (aka, make changes to your code).
+
+6. Now, from git, select add all to staged. then commit the new changes, and then push as simple as that....
+
+7. And you again good make changes asyou have backup...
 
