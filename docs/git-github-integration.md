@@ -166,3 +166,7 @@ Assume that, you already setup your project for git & github.
 
 7. And you again good make changes asyou have backup...
 
+
+## Next Step
+
+Understand git and github more. [best-git-codeassist.md](best-git-codeassist.md)
