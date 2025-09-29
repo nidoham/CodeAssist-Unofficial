@@ -7,6 +7,10 @@ In this file, you will find infomation about how to setup or open project from e
 
 ## Setup of external project in Code Assist Pro.
 
+`TL;DR`: Setup project like normally, Export the project as zip file. Delete The project from code assist. Unzip the export project In settings, toggle the custom project. From file explorer. Open the project folder in codeassist pro app.
+
+[Vidoe Toutrial](https://youtube.com/shorts/3buaY_T0KTM?si=Asg8eGacg0xj8Gyh)
+
 1) Download code assist pro from [Wadamzmail/CodeAssist-Unofficial](https://github.com/Wadamzmail/CodeAssist-Unofficial).
 
 2) Create a new project in code assit pro. Enter your details like appname, apppackagename, language, minsdk and don;t touch save location path, let it be in app sandbox enviroment.
