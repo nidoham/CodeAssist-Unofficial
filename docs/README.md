@@ -4,5 +4,5 @@ Here, In this file you will find docs for how to use code assist pro, (some of w
 
 ## Table Of Content
 
-- [How to open external project in code assist pro | Android 11+]()
-- [How to integrate git & github with code assit pro]()
+- [How to open external project in code assist pro | Android 11+](external-project.md)
+- [How to integrate git & github with code assit pro](git-github-integration.md)
